@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(50, 102, 85);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 4rem;
+    margin: 0 auto 0 auto;
+    color: antiquewhite;
+}
+.header p{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+}
+.header .left{
+    align-self: flex-start;
+    padding-left: 10%;
+    margin: 10px;
+}
+
+.header .right{
+    align-self: flex-end;
+    padding-right: 10%;
+    margin: 10px;
+}
+
+.header .big{
+    padding-top:45px;
+
+}
+
+.me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    text-align: center;
+    color: rgba(80, 134, 80, 0.999);
+}
+
+ .hr{
+    width: 90%; 
+    border-style: dashed;
+    border-width: 2px;
+    border-color: rgb(62, 127, 105);
+    margin-left: 5%;
+} 
+
+.me img{
+    border-radius: 50%;
+    border: none;
+}
+
+.parent{
+    width: 37.5%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 1rem;
+    margin: 100px auto 0 auto;
+    color: rgba(80, 134, 80, 0.999);
+}
+
+.skills h1{
+    text-align: center;
+    color: rgba(80, 134, 80, 0.999);
+    margin-top: 50px;
+    font-size: 3.25rem;
+}
+
+.contact-me{
+    text-align: center;
+    color: rgba(80, 134, 80, 0.999);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px auto 0 auto;
+}
+
+.contact-me h1{
+    font-size: 3rem;
+}
+
+.contact-me button{
+    background-color:rgba(80, 134, 80, 0.999);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+
+.contact-me button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
